@@ -21,6 +21,7 @@ class App extends Component {
  
 
   handleShow = () =>  {
+    console.log("test")
    this.setState({
     shows : !this.state.shows
    })
